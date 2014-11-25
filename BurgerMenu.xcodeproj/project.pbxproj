@@ -10,11 +10,11 @@
 		EBB9BBD61A253FE9004314AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB9BBD51A253FE9004314AB /* main.m */; };
 		EBB9BBD91A253FE9004314AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB9BBD81A253FE9004314AB /* AppDelegate.m */; };
 		EBB9BBDC1A253FE9004314AB /* BurgerMenu.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EBB9BBDA1A253FE9004314AB /* BurgerMenu.xcdatamodeld */; };
-		EBB9BBDF1A253FE9004314AB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB9BBDE1A253FE9004314AB /* ViewController.m */; };
 		EBB9BBE21A253FE9004314AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBB9BBE01A253FE9004314AB /* Main.storyboard */; };
 		EBB9BBE41A253FE9004314AB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBB9BBE31A253FE9004314AB /* Images.xcassets */; };
 		EBB9BBE71A253FE9004314AB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBB9BBE51A253FE9004314AB /* LaunchScreen.xib */; };
 		EBB9BBF31A253FEA004314AB /* BurgerMenuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB9BBF21A253FEA004314AB /* BurgerMenuTests.m */; };
+		EBB9BBFE1A2540B4004314AB /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB9BBFD1A2540B4004314AB /* TableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,14 +34,14 @@
 		EBB9BBD71A253FE9004314AB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EBB9BBD81A253FE9004314AB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		EBB9BBDB1A253FE9004314AB /* BurgerMenu.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BurgerMenu.xcdatamodel; sourceTree = "<group>"; };
-		EBB9BBDD1A253FE9004314AB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EBB9BBDE1A253FE9004314AB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EBB9BBE11A253FE9004314AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EBB9BBE31A253FE9004314AB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EBB9BBE61A253FE9004314AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		EBB9BBEC1A253FEA004314AB /* BurgerMenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BurgerMenuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBB9BBF11A253FEA004314AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EBB9BBF21A253FEA004314AB /* BurgerMenuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BurgerMenuTests.m; sourceTree = "<group>"; };
+		EBB9BBFC1A2540B4004314AB /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableViewController.h; path = ../TableViewController.h; sourceTree = "<group>"; };
+		EBB9BBFD1A2540B4004314AB /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableViewController.m; path = ../TableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,8 +85,8 @@
 			children = (
 				EBB9BBD71A253FE9004314AB /* AppDelegate.h */,
 				EBB9BBD81A253FE9004314AB /* AppDelegate.m */,
-				EBB9BBDD1A253FE9004314AB /* ViewController.h */,
-				EBB9BBDE1A253FE9004314AB /* ViewController.m */,
+				EBB9BBFC1A2540B4004314AB /* TableViewController.h */,
+				EBB9BBFD1A2540B4004314AB /* TableViewController.m */,
 				EBB9BBE01A253FE9004314AB /* Main.storyboard */,
 				EBB9BBE31A253FE9004314AB /* Images.xcassets */,
 				EBB9BBE51A253FE9004314AB /* LaunchScreen.xib */,
@@ -224,8 +224,8 @@
 			files = (
 				EBB9BBD91A253FE9004314AB /* AppDelegate.m in Sources */,
 				EBB9BBD61A253FE9004314AB /* main.m in Sources */,
-				EBB9BBDF1A253FE9004314AB /* ViewController.m in Sources */,
 				EBB9BBDC1A253FE9004314AB /* BurgerMenu.xcdatamodeld in Sources */,
+				EBB9BBFE1A2540B4004314AB /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
