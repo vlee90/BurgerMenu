@@ -29,6 +29,8 @@
     [self.view insertSubview:self.childView.view belowSubview:self.menuButton];
     [self.view insertSubview:self.tableView belowSubview:self.childView.view];
     [self.childView didMoveToParentViewController:self];
+    
+    self.tableView.dataSource = self;
 
 }
 
@@ -57,7 +59,8 @@
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"REUSE_CELL" forIndexPath:indexPath];
-    cell.textLabel.text = @"HI";
+    NSArray *textArray = [NSArray arrayWithObjects:@"Option 1",@"Option 2",@"Option 3", nil];
+    cell.textLabel.text = [textArray objectAtIndex:indexPath.row];
     return cell;
 }
 
