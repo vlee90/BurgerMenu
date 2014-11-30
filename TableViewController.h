@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CoreGraphicBackground.h"
 
 @interface TableViewController : UIViewController <UITableViewDataSource>
 

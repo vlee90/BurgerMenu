@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB0ECAE01A2AF366001F6040 /* CoreGraphicBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = EB0ECADF1A2AF366001F6040 /* CoreGraphicBackground.m */; };
 		EB82845A1A2A9151002EDCA4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8284591A2A9151002EDCA4 /* main.m */; };
 		EB82845D1A2A9151002EDCA4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB82845C1A2A9151002EDCA4 /* AppDelegate.m */; };
 		EB8284601A2A9151002EDCA4 /* BurgerMenuNoStoryboard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EB82845E1A2A9151002EDCA4 /* BurgerMenuNoStoryboard.xcdatamodeld */; };
@@ -42,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EB0ECADE1A2AF366001F6040 /* CoreGraphicBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreGraphicBackground.h; path = ../CoreGraphicBackground.h; sourceTree = "<group>"; };
+		EB0ECADF1A2AF366001F6040 /* CoreGraphicBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CoreGraphicBackground.m; path = ../CoreGraphicBackground.m; sourceTree = "<group>"; };
 		EB8284551A2A9150002EDCA4 /* BurgerMenuNoStoryboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BurgerMenuNoStoryboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB8284581A2A9151002EDCA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB8284591A2A9151002EDCA4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -173,6 +176,8 @@
 				EBB9BBD81A253FE9004314AB /* AppDelegate.m */,
 				EBB9BBFC1A2540B4004314AB /* TableViewController.h */,
 				EBB9BBFD1A2540B4004314AB /* TableViewController.m */,
+				EB0ECADE1A2AF366001F6040 /* CoreGraphicBackground.h */,
+				EB0ECADF1A2AF366001F6040 /* CoreGraphicBackground.m */,
 				EBB9BBE01A253FE9004314AB /* Main.storyboard */,
 				EBB9BBE31A253FE9004314AB /* Images.xcassets */,
 				EBB9BBE51A253FE9004314AB /* LaunchScreen.xib */,
@@ -391,6 +396,7 @@
 				EBB9BBD61A253FE9004314AB /* main.m in Sources */,
 				EBB9BBDC1A253FE9004314AB /* BurgerMenu.xcdatamodeld in Sources */,
 				EBB9BBFE1A2540B4004314AB /* TableViewController.m in Sources */,
+				EB0ECAE01A2AF366001F6040 /* CoreGraphicBackground.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -647,6 +653,7 @@
 				EB8284791A2A9152002EDCA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EB82847D1A2A9152002EDCA4 /* Build configuration list for PBXNativeTarget "BurgerMenuNoStoryboardTests" */ = {
 			isa = XCConfigurationList;
@@ -655,6 +662,7 @@
 				EB82847B1A2A9152002EDCA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EBB9BBCB1A253FE9004314AB /* Build configuration list for PBXProject "BurgerMenu" */ = {
 			isa = XCConfigurationList;
