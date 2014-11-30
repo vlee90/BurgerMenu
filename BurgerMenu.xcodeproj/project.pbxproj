@@ -11,7 +11,6 @@
 		EB82845D1A2A9151002EDCA4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB82845C1A2A9151002EDCA4 /* AppDelegate.m */; };
 		EB8284601A2A9151002EDCA4 /* BurgerMenuNoStoryboard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EB82845E1A2A9151002EDCA4 /* BurgerMenuNoStoryboard.xcdatamodeld */; };
 		EB8284631A2A9151002EDCA4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8284621A2A9151002EDCA4 /* ViewController.m */; };
-		EB8284661A2A9151002EDCA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB8284641A2A9151002EDCA4 /* Main.storyboard */; };
 		EB8284681A2A9151002EDCA4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB8284671A2A9151002EDCA4 /* Images.xcassets */; };
 		EB82846B1A2A9151002EDCA4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB8284691A2A9151002EDCA4 /* LaunchScreen.xib */; };
 		EB8284771A2A9152002EDCA4 /* BurgerMenuNoStoryboardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8284761A2A9152002EDCA4 /* BurgerMenuNoStoryboardTests.m */; };
@@ -51,7 +50,6 @@
 		EB82845F1A2A9151002EDCA4 /* BurgerMenuNoStoryboard.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BurgerMenuNoStoryboard.xcdatamodel; sourceTree = "<group>"; };
 		EB8284611A2A9151002EDCA4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		EB8284621A2A9151002EDCA4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		EB8284651A2A9151002EDCA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EB8284671A2A9151002EDCA4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EB82846A1A2A9151002EDCA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		EB8284701A2A9151002EDCA4 /* BurgerMenuNoStoryboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BurgerMenuNoStoryboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -112,7 +110,6 @@
 				EB82845C1A2A9151002EDCA4 /* AppDelegate.m */,
 				EB8284611A2A9151002EDCA4 /* ViewController.h */,
 				EB8284621A2A9151002EDCA4 /* ViewController.m */,
-				EB8284641A2A9151002EDCA4 /* Main.storyboard */,
 				EB8284671A2A9151002EDCA4 /* Images.xcassets */,
 				EB8284691A2A9151002EDCA4 /* LaunchScreen.xib */,
 				EB82845E1A2A9151002EDCA4 /* BurgerMenuNoStoryboard.xcdatamodeld */,
@@ -335,7 +332,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB8284661A2A9151002EDCA4 /* Main.storyboard in Resources */,
 				EB82846B1A2A9151002EDCA4 /* LaunchScreen.xib in Resources */,
 				EB8284681A2A9151002EDCA4 /* Images.xcassets in Resources */,
 			);
@@ -422,14 +418,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		EB8284641A2A9151002EDCA4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EB8284651A2A9151002EDCA4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EB8284691A2A9151002EDCA4 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
